@@ -20,7 +20,7 @@ public class LoadWithGlide {
     }
 
 
-    public void LoadImageWithPlaceHolder(final ImageView imageView , String url/* , int width, int height*/){
+    public String LoadImageWithPlaceHolder( String url/* , int width, int height*/){
 
        /* Glide.with(mContext)
                 .load(url)
@@ -30,11 +30,12 @@ public class LoadWithGlide {
                 .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                 //.crossFade().diskCacheStrategy(DiskCacheStrategy.SOURCE)
                 .into(imageView);*/
+        return url;
 
     }
 
 
-    public void loadPlaceHolder(ImageView imageView,int width, int height){
+    public void loadPlaceHolder(int width, int height){
 
         /*Glide.with(mContext)
                 //.load(R.drawable.placeholder)

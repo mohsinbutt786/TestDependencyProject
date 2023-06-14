@@ -37,6 +37,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 
-
-    implementation 'com.github.mohsinbutt786:TestDependencyProject:1.0.3'
+    implementation project(":NewTestDependency")
+   // implementation 'com.github.mohsinbutt786:TestDependencyProject:1.0.3'
 }
